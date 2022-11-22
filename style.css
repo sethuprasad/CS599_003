@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+.main-width{
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.layout{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(#FFFFFF, 2%,	#92cefc);
+    position: relative;
+}
+
+.layout header .logo h2 a{
+     display: block;
+     font-size: 32px;
+     font-weight: 600;
+     text-decoration: none;
+     color: black;
+}
+
+.layout header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+
+nav ul li a:hover,
+nav ul li a:focus{
+    border-bottom: 2px solid black;
+}
+
+nav ul li.button a{
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 150px;
+}
+
+nav ul li.button:hover a{
+    border: 1px solid-white;
+    color: white;
+    background: black;
+    transition: .4s;
+}
+
+.content{
+    padding-top: 140px;
+}
+
+.content .main-text{
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+
+.content .main-text h1{
+    font-size: 100px;
+    line-height: 1;
+    text-shadow: 2px 2px whitesmoke;
+    color: black;
+    margin: 0px 0px 45px;
+    font-family: 'Caesar Dressing', cursive;
+}
+
+.content .main-text a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 1px solid white;
+    padding: 9px 25px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.content .main-text a:hover{
+    transform: scale(1.2);
+    border: 1px solid #f5dca8;
+    background: transparent;
+    color: white;
+    transition: .4s;
+}
+
+.image{
+    position: absolute;
+    width: 75%;
+    height: 88%;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+
+.image img{
+    height: 100%;
+}
+
